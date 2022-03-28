@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background2"
+    tools:context="com.example.android.astronomyquizapp.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="25dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="8dp">
+
+        <!-- Background Image -->
+        <!-- Question 1 -->
+        <TextView
+            style="@style/question_heading"
+            android:text="@string/question_1" />
+
+        <CheckBox
+            android:id="@+id/q1_moon"
+            style="@style/choice_style"
+            android:text="@string/q1_choice1" />
+
+        <CheckBox
+            android:id="@+id/q1_saturn"
+            style="@style/choice_style"
+            android:text="@string/q1_choice2" />
+
+        <CheckBox
+            android:id="@+id/q1_pluto"
+            style="@style/choice_style"
+            android:text="@string/q1_choice3" />
+
+        <CheckBox
+            android:id="@+id/q1_venus"
+            style="@style/choice_style"
+            android:text="@string/q1_choice4" />
+
+        <!-- Question 2 -->
+        <TextView
+            style="@style/question_heading"
+            android:text="@string/question_2" />
+
+        <EditText
+            android:id="@+id/q2_mercury"
+            style="@style/edit_style"
+            android:hint="@string/planet_1" />
+
+
+        <EditText
+            android:id="@+id/q2_venus"
+            style="@style/edit_style"
+            android:hint="@string/planet_2" />
+
+        <EditText
+            android:id="@+id/q2_earth"
+            style="@style/edit_style"
+            android:hint="@string/planet_3" />
+
+
+        <EditText
+            android:id="@+id/q2_mars"
+            style="@style/edit_style"
+            android:hint="@string/planet_4" />
+
+
+        <EditText
+            android:id="@+id/q2_jupiter"
+            style="@style/edit_style"
+            android:hint="@string/planet_5" />
+
+
+        <EditText
+            android:id="@+id/q2_saturn"
+            style="@style/edit_style"
+            android:hint="@string/planet_6" />
+
+
+        <EditText
+            android:id="@+id/q2_uranus"
+            style="@style/edit_style"
+            android:hint="@string/planet_7" />
+
+        <EditText
+            android:id="@+id/q2_neptune"
+            style="@style/edit_style"
+            android:hint="@string/planet_8" />
+
+        <!-- Question 3 -->
+        <TextView
+            style="@style/question_heading"
+            android:text="@string/question_3" />
+
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q3_wrong1"
+                style="@style/choice_style"
+                android:text="@string/q3_choice1" />
+
+            <RadioButton
+                android:id="@+id/q3_correct"
+                style="@style/choice_style"
+                android:text="@string/q3_choice2" />
+
+            <RadioButton
+                android:id="@+id/q3_wrong2"
+                style="@style/choice_style"
+                android:text="@string/q3_choice3" />
+
+            <RadioButton
+                android:id="@+id/q3_wrong3"
+                style="@style/choice_style"
+                android:text="@string/q3_choice4" />
+        </RadioGroup>
+
+        <!-- Question 4 -->
+        <TextView
+            style="@style/question_heading"
+            android:text="@string/question_4" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q4_correct"
+                style="@style/choice_style"
+                android:text="@string/q4_choice1" />
+
+            <RadioButton
+                android:id="@+id/q4_wrong1"
+                style="@style/choice_style"
+                android:text="@string/q4_choice2" />
+
+            <RadioButton
+                android:id="@+id/q4_wrong2"
+                style="@style/choice_style"
+                android:text="@string/q4_choice3" />
+
+            <RadioButton
+                android:id="@+id/q4_wrong3"
+                style="@style/choice_style"
+                android:text="@string/q4_choice4" />
+        </RadioGroup>
+
+
+        <!-- Question 5 -->
+        <TextView
+            style="@style/question_heading"
+            android:text="@string/question_5" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q5_wrong1"
+                style="@style/choice_style"
+                android:text="@string/q5_choice1" />
+
+            <RadioButton
+                android:id="@+id/q5_correct"
+                style="@style/choice_style"
+                android:text="@string/q5_choice2" />
+
+            <RadioButton
+                android:id="@+id/q5_wrong2"
+                style="@style/choice_style"
+                android:text="@string/q5_choice3" />
+
+            <RadioButton
+                android:id="@+id/q5_wrong3"
+                style="@style/choice_style"
+                android:text="@string/q5_choice4" />
+        </RadioGroup>
+
+
+        <!-- Question 6 -->
+        <TextView
+            style="@style/question_heading"
+            android:text="@string/question_6" />
+
+        <EditText
+            android:id="@+id/q6_galaxy"
+            style="@style/edit_style"
+            android:hint="@string/q6_text" />
+
+        <!-- Question 7 -->
+        <TextView
+            style="@style/question_heading"
+            android:text="@string/question_7" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q7_wrong1"
+                style="@style/choice_style"
+                android:text="@string/q7_choice1" />
+
+
+            <RadioButton
+                android:id="@+id/q7_wrong2"
+                style="@style/choice_style"
+                android:text="@string/q7_choice2" />
+
+            <RadioButton
+                android:id="@+id/q7_wrong3"
+                style="@style/choice_style"
+                android:text="@string/q7_choice3" />
+
+            <RadioButton
+                android:id="@+id/q7_correct"
+                style="@style/choice_style"
+                android:text="@string/q7_choice4" />
+        </RadioGroup>
+
+        <!-- Question 8 -->
+        <TextView
+            style="@style/question_heading"
+            android:text="@string/question_8" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q8_wrong"
+                style="@style/choice_style"
+                android:text="@string/q8_choice1" />
+
+            <RadioButton
+                android:id="@+id/q8_correct"
+                style="@style/choice_style"
+                android:text="@string/q8_choice2" />
+        </RadioGroup>
+
+
+        <!-- Question 9 -->
+        <TextView
+            style="@style/question_heading"
+            android:text="@string/question_9" />
+
+        <CheckBox
+            android:id="@+id/q9_Saturn"
+            style="@style/choice_style"
+            android:text="@string/q9_choice1" />
+
+        <CheckBox
+            android:id="@+id/q9_Jupiter"
+            style="@style/choice_style"
+            android:text="@string/q9_choice2" />
+
+        <CheckBox
+            android:id="@+id/q9_Venus"
+            style="@style/choice_style"
+            android:text="@string/q9_choice3" />
+
+        <CheckBox
+            android:id="@+id/q9_Uranus"
+            style="@style/choice_style"
+            android:text="@string/q9_choice4" />
+
+        <!-- Question 10 -->
+        <TextView
+            style="@style/question_heading"
+            android:text="@string/question_10" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/q10_wrong"
+                style="@style/choice_style"
+                android:text="@string/q10_choice1" />
+
+            <RadioButton
+                android:id="@+id/q10_correct"
+                style="@style/choice_style"
+                android:text="@string/q10_choice2" />
+        </RadioGroup>
+
+
+        <!-- Finish Button -->
+        <Button
+            android:layout_marginTop="16dp"
+            android:layout_width="128dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:onClick="finishQuiz"
+            android:text="@string/Finish"
+            android:textColor="@android:color/white" />
+
+    </LinearLayout>
+</ScrollView>

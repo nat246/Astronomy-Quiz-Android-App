@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Astronomy Quiz App</string>
+
+    <!-- Questions -->
+    <string name="question_1">1. Which of the following are considered planets?</string>
+    <string name="question_2">2. Name all the planets in order from our solar system.</string>
+    <string name="question_3">3. How long ago did the universe begin?</string>
+    <string name="question_4">4. Which of these stars is the closest star to our Sun?</string>
+    <string name="question_5">5. How many years are there left till the Sun becomes a red giant?</string>
+    <string name="question_6">6. What galaxy are we in?</string>
+    <string name="question_7">7. How many minutes does it take for the Sun\'s light to reach Earth?</string>
+    <string name="question_8">8. A nebula is larger than a galaxy</string>
+    <string name="question_9">9. Which of the following planets has rings?</string>
+    <string name="question_10">10. The Earth is flat</string>
+
+    <!-- Question 1 Choices -->
+    <string name="q1_choice1">Moon</string>
+    <string name="q1_choice2">Saturn</string>
+    <string name="q1_choice3">Pluto</string>
+    <string name="q1_choice4">Venus</string>
+
+    <!-- Question 2 EditText hints -->
+    <string name="planet_1">1st Planet</string>
+    <string name="planet_2">2nd Planet</string>
+    <string name="planet_3">3rd Planet</string>
+    <string name="planet_4">4th Planet</string>
+    <string name="planet_5">5th Planet</string>
+    <string name="planet_6">6th Planet</string>
+    <string name="planet_7">7th Planet</string>
+    <string name="planet_8">8th Planet</string>
+
+    <!-- Question 3 Choices -->
+    <string name="q3_choice1">4.6 billion years ago</string>
+    <string name="q3_choice2">13.7 billion years ago</string>
+    <string name="q3_choice3">7.9 billion years ago</string>
+    <string name="q3_choice4">15.5 billion years ago</string>
+
+    <!-- Question 4 Choices -->
+    <string name="q4_choice1">Alpha Centauri A</string>
+    <string name="q4_choice2">Proxima Centauri</string>
+    <string name="q4_choice3">Betelguese</string>
+    <string name="q4_choice4">Sirius</string>
+
+    <!-- Question 5 choices -->
+    <string name="q5_choice1">8 billion years</string>
+    <string name="q5_choice2">5 billion years</string>
+    <string name="q5_choice3">10 billion years</string>
+    <string name="q5_choice4">2 billion years</string>
+
+    <!-- Question 6 EditText -->
+    <string name="q6_text">Galaxy</string>
+
+    <!-- Question 7 choices -->
+    <string name="q7_choice1">Instantly</string>
+    <string name="q7_choice2">5.9 seconds</string>
+    <string name="q7_choice3">11.5 seconds</string>
+    <string name="q7_choice4">8 minutes</string>
+
+    <!-- Question 8 -->
+    <string name="q8_choice1">True</string>
+    <string name="q8_choice2">False</string>
+
+    <!-- Question 9 -->
+    <string name="q9_choice1">Saturn</string>
+    <string name="q9_choice2">Jupiter</string>
+    <string name="q9_choice3">Venus</string>
+    <string name="q9_choice4">Uranus</string>
+
+    <!-- Question 10 -->
+    <string name="q10_choice1">True</string>
+    <string name="q10_choice2">False</string>
+
+    <!-- Finished button-->
+    <string name="Finish">Finish</string>
+</resources>
